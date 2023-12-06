@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+function hello(){
+    const header = document.querySelector('h1');
+    if(header.innerHTML=== 'hello'){
+        alert("Changing the element");
+        header.innerHTML= 'goodbye';
+
+    }
+    else{
+        header.innerHTML = 'hello';
+
+    }
+
+}
+
+    </script>
+</head>
+<body>
+    <h1> Hello</h1>
+<button onclick="hello()">Click here</button>
+    
+</body>
+</html>
